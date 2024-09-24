@@ -1,0 +1,32 @@
+body {
+    font-family: Goudy Old Style, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dddd;
+}
+
+header {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(Faza\ 6.jpg) 30 round;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#projects {
+    margin: 20px;
+}
+
+.video-container {
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #333;
+}
+
+video, iframe {
+    display: block;
+    margin: 0 auto;
+    border: none;
+}

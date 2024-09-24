@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Beauty Project.css">
+</head>
+<body>
+    <header>
+        <h1>Make-Up Series</h1>
+    </header>
+
+    <section id="projects">
+        
+        <!-- Container untuk beberapa foto -->
+        <div class="gallery">
+            <img src="Faza 12.jpg" alt="Photo 1" class="thumbnail" onclick="openLightbox();showImage(1)">
+            <img src="Faza 3.jpg" alt="Photo 2" class="thumbnail" onclick="openLightbox();showImage(2)">
+            <img src="Faza 7.jpg" alt="Photo 3" class="thumbnail" onclick="openLightbox();showImage(3)">
+            <img src="Faza 8.jpg" alt="Photo 4" class="thumbnail" onclick="openLightbox();showImage(4)">
+            <img src="Faza 9.jpg" alt="Photo 5" class="thumbnail" onclick="openLightbox();showImage(5)">
+            <img src="Faza10.jpg" alt="Photo 6" class="thumbnail" onclick="openLightbox();showImage(6)">
+            <img src="Faza 11.png" alt="Photo 7" class="thumbnail" onclick="openLightbox();showImage(7)">
+            <img src="Faza  12.jpg" alt="Photo 8" class="thumbnail" onclick="openLightbox();showImage(8)">
+            <img src="Faza 13.jpg" alt="Photo 8" class="thumbnail" onclick="openLightbox();showImage(9)">
+        </div>
+    </section>
+
+     <!-- Lightbox -->
+     <div id="lightbox" class="lightbox">
+      <span class="close" onclick="closeLightbox()">&times;</span>
+      <img id="lightboxImage" class="lightbox-content">
+      <div class="caption" id="caption"></div>
+  </div>
+
+    <a href="My Portofolio WEB.html" class="btn btn-primary">Back to Portfolio</a>
+
+    <script src="Beauty Project.js"></script>
+</body>
+</html>
