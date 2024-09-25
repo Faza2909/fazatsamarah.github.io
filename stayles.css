@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Philosopher, sans-serif;
+  font-family: Goudy Old Style, sans-serif;
   line-height: 1.6;
   background-color: #dddddd;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  font-family: Philosopher, sans-serif;
+  font-family: Goudy Old Style, sans-serif;
   background: #dddddd;
   color: #707070;
   padding: 5px 0;
@@ -48,7 +48,7 @@ header ul li a {
 
 
 .hero {
-  font-family: Cinzel Decorative, sans-serif;
+  font-family: Castellar, sans-serif;
   background: url('Faza\ 6.jpg') no-repeat center center/cover;
   height: 100vh;
   color: #707070;
@@ -80,7 +80,7 @@ header ul li a {
 }
 
 .project-card {
-  font-family: Cinzel Decorative, sans-serif;
+  font-family: Goudy Old Style, sans-serif;
   background-color: #ddd;
   padding: 20px;
   width: 30%;
@@ -133,7 +133,7 @@ form button:hover {
 }
 
 body {
-            font-family: Philosopher, sans-serif;
+            font-family: Goudy Old Style, sans-serif;
             text-align: center;
             margin-top: 50px;
         }
