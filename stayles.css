@@ -46,19 +46,6 @@ header ul li a {
   font-weight: bold;
 }
 
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.hamburger span {
-  width: 25px;
-  height: 3px;
-  margin: 4px;
-  transition: 0.3s;
-}
-
 .hero {
   font-family: Castellar, sans-serif;
   background: url('Faza\ 6.jpg') no-repeat center center/cover;
@@ -93,7 +80,7 @@ header ul li a {
 
 .project-card {
   font-family: Castellar, sans-serif;
-  background-color: #ddd;
+  background-color: #dddd;
   padding: 20px;
   width: 30%;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
