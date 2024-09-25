@@ -46,19 +46,6 @@ header ul li a {
   font-weight: bold;
 }
 
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.hamburger span {
-  width: 25px;
-  height: 3px;
-  margin: 4px;
-  transition: 0.3s;
-}
-
 .hero {
   font-family: Castellar, sans-serif;
   background: url('Faza\ 6.jpg') no-repeat center center/cover;
